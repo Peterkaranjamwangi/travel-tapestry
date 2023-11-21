@@ -53,7 +53,7 @@ const Hero = () => {
 
       </div>
 
-      <div className="relative flex flex-1 max-w-full items-start border border-red-500">
+      <div className="relative flex flex-1 max-w-full items-start">
         <div className="relative z-20 flex-col max-w-full max-h-full gap-8">
           
         </div>
