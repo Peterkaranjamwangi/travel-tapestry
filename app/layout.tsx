@@ -20,7 +20,7 @@ export default function RootLayout({
       <body>
         <div className="w-full">
           <Navbar />
-          <SideBar />
+          {/* <SideBar /> */}
           <main className="relative overflow-hidden">
             {children}
           </main>

@@ -4,12 +4,8 @@ import React from 'react'
 
 const SideBar = () => {
   return (
-
-
-<nav className=" -z-30 flex-between w-full mb-16 pt-3">
-<div className=" flex flexCol gap-11">
-    <div className="md:hidden flex-1">
-        <ul className=" h-full">
+    <div className="flex flex-col md:hidden border-b pl-3">
+            <ul className="flex flex-col">
                 {NAV_LINKS.map((link) => (
                     <Link 
                     href={link.href} 
@@ -19,12 +15,8 @@ const SideBar = () => {
                         {link.label}
                     </Link>
                 ))}
-        </ul>
-    </div>
-</div>
-
-
-</nav>
+            </ul>
+            </div>
   )
 }
 

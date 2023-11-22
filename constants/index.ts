@@ -18,32 +18,33 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Navigate with ease',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "Our intuitive navigation system makes it easy to find your way around, even in unfamiliar territory."
   },
+  
   {
-    title: 'Set an adventure schedule',
+    title: 'Track your progress',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Travel Tapestry. That way, there's no more discussion",
+      "Keep track of your distance, elevation gain, and other important metrics with our comprehensive tracking tools."
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Stay connected',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+    "Never miss a beat with our real-time communication features, which allow you to stay in touch with your fellow climbers."
   },
   {
-    title: 'Many new locations every month',
+    title: 'Unwavering Support for Outdoor Adventures',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+    "Embark on your outdoor adventures with confidence, knowing that our app is your dependable companion. Offline maps, route planning tools, and detailed terrain information empower you to explore with ease, even in remote areas."
   },
 ];
 
@@ -53,23 +54,21 @@ export const FOOTER_LINKS = [
     title: 'Learn More',
     links: [
       'About Travel Tapestry',
-      'Press Releases',
       'Environment',
-      'Jobs',
       'Privacy Policy',
       'Contact Us',
     ],
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking Travel Tapestry', 'Travel Tapestry kinthill'],
+    links: ['Climbing', 'Hiking', 'Swimming' ],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
+    { label: 'Admin Officer', value: '+924-456-7890' },
     { label: 'Email Officer', value: 'traveltapestry@akinthil.com' },
   ],
 };
