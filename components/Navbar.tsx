@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className=" flexBetween max-container shadow padding-container relative z-30 py-2">
             <Link href="/">
-                <Image src="/logo-bg.png" alt="logo" width="110" height="80"/>
+                <Image src="/logo.png" alt="logo" width="110" height="80"/>
             </Link>
 
             <ul className="hidden h-full gap-12 lg:flex">

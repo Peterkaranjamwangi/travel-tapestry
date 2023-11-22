@@ -5,11 +5,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24">
-      <div className="padding-container max-container flex w-full flex-col gap-14">
-        <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
+    <footer className="flexCenter mb-4">
+      <div className="padding-container max-container flex w-full flex-col gap-6">
+        <div className="flex flex-col items-start justify-center gap-[5%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="/logo-bg.png" alt="logo" width={134} height={50}/>
+            <Image src="/logo.png" alt="logo" width={134} height={50}/>
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
@@ -58,8 +58,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">2023 Travel Tapestry | All rights reserved</p>
+        <div className="border border-green-50" />
+        <p className="regular-14 w-full text-center text-gray-90">2023 Travel Tapestry | All rights reserved</p>
       </div>
     </footer>
   )
@@ -69,15 +69,6 @@ type FooterColumnProps = {
   title: string;
   children: React.ReactNode;
 }
-
-// const FooterColumn = ({ title, children }: FooterColumnProps) => {
-//   return (
-//     <div className="flex flex-col gap-5" key={title}>
-//       <h4 className="bold-18 whitespace-nowrap">{title}</h4>
-//       {children}
-//     </div>
-//   )
-// }
 
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return (

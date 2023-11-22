@@ -40,7 +40,7 @@ const Hero = () => {
           <Button 
             type="button" 
             title="Download App" 
-            variant="btn_green"  
+            variant="btn_dark_green"  
           />
           <Button 
             type="button" 
