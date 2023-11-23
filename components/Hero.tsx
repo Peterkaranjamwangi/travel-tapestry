@@ -54,7 +54,10 @@ const Hero = () => {
       </div>
 
       <div className="relative flex flex-1 max-w-full items-star">
-        <div className="relative z-20 flex-col max-w-full max-h-full gap-8">
+        <div className="relative z-20 flex-col max-w-full max-h-full gap-4">
+        <div className="flex flex-1 items-center justify-end">
+          <Image src="/travel.png" alt="travel" width={500} height={700} />
+        </div>
         </div>
       </div>
     </section>
